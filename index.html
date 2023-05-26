@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="RUTA/NOMBRE_FICHERO.ico">
+    <title>Encriptador</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Vector.png">
+    </header>
+
+    <main>
+        <form>
+            <textarea cols="30" rows="10" id="input" type="text" placeholder="Escriba aquí..."></textarea>
+            <p id="aviso">❕ Solo letras minúsculas sin tildes</p>
+            <div id="btnContainer">
+                <button id="encriptar">ENCRIPTAR</button>
+                <button id="desencriptar">DESENCRIPTAR</button>
+            </div>
+        </form>
+        <div id="resContainer">
+            <div id="msjWarning">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desea encriptar o desencriptar</p>
+            </div>
+            <p id="respuesta"></p>
+            <button id="copiar">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <p id="aviso">De Yael Martin</p>
+    </footer>
+</body>
+
+</html>
